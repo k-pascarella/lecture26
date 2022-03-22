@@ -1,0 +1,18 @@
+---
+title: "git"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+# sample of size 100
+Y<- rnorm( 100)
+hist(Y)
+```
+
+
